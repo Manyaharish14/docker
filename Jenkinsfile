@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url:'https://github.com/Manyaharish14/docker.git',
+                git branch: 'master', url:'https://github.com/Manyaharish14/docker.git',
                 credentialsId: 'github-token'
             }
         }
